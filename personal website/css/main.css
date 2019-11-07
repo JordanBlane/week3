@@ -1,0 +1,71 @@
+@keyframes fade{
+    from{
+        background-color:#534D56;
+    }
+    to{
+        background-color:#656176;
+    }
+}
+
+ul{
+    list-style-type:none;
+    margin:none;
+    padding: 0;
+    width:200px;
+    background-color:#534D56;
+}
+li a{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    color:#F8F1FF;
+    padding:8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    animation-name:fade;
+    animation-duration: 1s;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    color:#534D56;
+    text-align:center;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    color:#534D56;
+    text-align:center;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color:#534D56;
+    text-align:center;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color:#534D56;
+    text-align:center;
+}
+button{
+    font-size:15px;
+    border:none;
+    background-color: #534D56;
+    color:#F8F1FF;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    justify-content: center;
+    display:flex;
+}
+button:hover{
+    animation-name:fade;
+    animation-duration:1s;
+    background-color:#656176;
+}
+
+#active{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    background-color:#656176;
+    padding:8px 16px;
+    text-decoration: none;
+}

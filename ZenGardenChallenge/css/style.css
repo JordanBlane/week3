@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    width:30%;
+    position: absolute;
+    left:440px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.intro h1{
+    padding: 40px 0px 10px 0px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 100;
+    color: white;
+    text-shadow: 3px 4px 2px #000000;
+    font-size: 5vh;
+}
+.intro h2{
+    color:white;
+    font-family: 'Satisfy';
+    font-size:20px
+}
+
+.intro header{
+    position: static;
+    text-align: center;
+    background-color: blue;
+    background: URL("../img/huntington.png");
+    position: absolute;
+    width: 100%;
+    height: 25%;
+}
+
+body{
+    background-color: white;
+}
+
+.summary{
+    line-height:1.7;
+    margin-left: 40px;
+    padding:220px 0px 10px 0px;
+    color:grey;
+    font-family:'roboto';
+}
+
+.preamble h3{
+    font-family:'roboto';
+    margin-left:40px;
+    padding: 10px 0px 20px 0px;
+    color:black;
+}
+
+.preamble p{
+    margin-left: 40px;
+    padding:10px 0px 10px 0px;
+    color:grey;
+    font-family:'roboto';
+}
+
+.intro{
+    padding:0px 0px 20px 0px;
+}
+
+
+.explanation h3{
+    font-family:'roboto';
+    margin-left:40px;
+    padding: 10px 0px 20px 0px;
+    color:black;
+}
+
+.explanation p{
+    margin-left: 40px;
+    padding:10px 0px 10px 0px;
+    color:grey;
+    font-family:'roboto';
+}
+
+.explanation{
+    padding:0px 0px 30px 0px;
+}
+
+.participation{
+    background-image:url('../img/bamboo.png');
+    background-color:#859C82;
+    padding:10px 0px 5px 0px;
+}
+
+.participation h3{
+    padding:5px 0px 5px 0px;
+    color:#1E281D;
+    margin-left:40px;
+    font-family:'roboto';
+}
+
+.participation p{
+    margin-left:40px;
+    color:white;
+    font-family:'roboto';
+    padding:5px 0px 5px 0px;
+}
+
+.benefits{
+    padding:20px 0px 10px 0px;
+    background-image:url('../img/bamboo.png');
+    background-color:#859C82;
+
+}
+
+.benefits h3{
+    padding:5px 0px 5px 0px;
+    color:#1E281D;
+    margin-left:40px;
+    font-family:'roboto';
+}
+
+.benefits p{
+    margin-left:40px;
+    color:white;
+    font-family:'roboto';
+    padding:5px 0px 5px 0px;
+}
+
+.requirements{
+    padding:40px 0px 0px 0px;
+}
+
+.requirements h3{
+    font-family:'roboto';
+    margin-left:40px;
+    padding: 10px 0px 20px 0px;
+    color:black;
+}
+
+.requirements p{
+    margin-left: 40px;
+    padding:10px 0px 10px 0px;
+    color:grey;
+    font-family:'roboto';
+}
+
+.requirements [role="contentinfo"]{
+    margin-left:0px;
+    background-color:#859C82;
+    font-family:'Satisfy';
+    color:white;
+    font-size:20px;
+    padding: 10px 0px 10px 40px;
+    text-align: center;
+}
+
+footer{
+    background-color:#354E4B;
+    text-align:center;
+    font-size:30px; 
+    padding:10px 0px 10px 0px;
+}
+footer a{
+    font-size:30px;
+    color:white;
+}
+footer a:hover{
+    color:grey;
+}
+
+a{
+    color:grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+.sidebar h3{
+    visibility: hidden;
+}
+
+ul{
+    list-style-type:none;
+    text-align:center;
+    columns: 2;
+    padding:10px 0px 10px 0px;
+}
+
+li{
+    font-family:'roboto';
+    padding:10px 0px 10px 0px;
+    color:black;
+}
+
+.wrapper{
+    background-color:#DAE1DA;
+}
+
+li a{
+    color:black;
+}
+
+li a:hover{
+    color:grey;
+}
